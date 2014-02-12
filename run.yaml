@@ -1,0 +1,6 @@
+- hosts: all
+  user: esehara
+  sudo: yes
+  tasks:   
+    - include: general/__init__.yaml
+    - include: python/__init__.yaml

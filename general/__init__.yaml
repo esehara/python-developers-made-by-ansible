@@ -1,0 +1,4 @@
+- include: common.yaml
+- include: git.yaml
+- include: zsh.yaml
+- include: jenkins.yaml

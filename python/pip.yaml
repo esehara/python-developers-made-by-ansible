@@ -1,0 +1,5 @@
+- name: developers tool for pip
+  pip: name={{item}}
+  sudo: yes
+  with_items:
+    - virtualenvwrapper

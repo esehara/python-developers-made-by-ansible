@@ -1,0 +1,5 @@
+- name: Install Jenkins
+  apt: pkg={{item}}
+  sudo: yes
+  with_items:
+    - jenkins

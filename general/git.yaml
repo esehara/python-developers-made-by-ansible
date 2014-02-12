@@ -1,0 +1,10 @@
+ - name: "Install Git"
+   apt: pkg={{item}}
+   sudo: yes
+   with_items:
+     - git
+
+ - name: Git >>> Configure
+   template:
+     src=./general/settings/gitconfig.j2
+     dest=/etc/gitconfig

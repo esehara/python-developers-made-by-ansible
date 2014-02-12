@@ -1,0 +1,6 @@
+- name: Install Zsh
+  apt: pkg=zsh
+  sudo: yes
+
+# - name: Install Oh-my-zsh
+#  command: curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
